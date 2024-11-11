@@ -38,20 +38,7 @@ Pre-trained MolAI models and encoding are available in the "models_MolAI" direct
 
 The repository also contains pretrained models for iLP and 14 ADMET features. Training files for the ADMET features are supplied for demostrational use of the toolset. 
 
-### Retraining Models
-
-Before retraining, you'll need to generate the training data by running the following script. This assumes you have prepared your protein structures correctly, run dpocket, and sorted your pKd data.
-
-#### Step 1: Prepare Training Data
-
-```bash
-# Generate Descroptors
-python Training/Descriptors.py
-```
-- This script generates the necessary descriptors from your data. Ensure you have the required files in the correct locations as specified in the script.
-- The un-prepared protein structure 1a1e is included as an example. Do not include this example protein when generating training data. Replace the 1a1e folder, pKd.csv and dpout_explicitp.txt for before retraining. 
-
-#### Step 2: Retrain an ADMET Model
+#### Retrain an ADMET Model
 
 For demostational purposes, all files necessary to retrain the models are supplied in each ADMET features folder. In this example AMES is retrained with the supplied raw_data.csv:
 
