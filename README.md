@@ -18,7 +18,7 @@ Implementation of "MolAI" by S.J. Mahdizadeh and L.A. Eriksson.
 
 ```bash
 # Clone this repository
-git clone
+git clone git@github.com:i-TripleD/MolAI-Publication.git
 
 # Change directory
 cd MolAI
