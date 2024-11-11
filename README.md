@@ -15,10 +15,20 @@ Implementation of "MolAI" by S.J. Mahdizadeh and L.A. Eriksson.
    * tqdm 4.67
 
 2. **Installation:**
-   * Clone this repository: `git clone `
-   * Change directory: `cd MolAI`
-   * Install required packages: `pip install -r requirements.txt`
-   * Merge MolAI model: `cat models_MolAI/Model_Trained_epoch_6_part_* > models_MolAI/Model_Trained_epoch_6.h5`
+
+```bash
+# Clone this repository
+git clone
+
+# Change directory
+cd MolAI
+
+# Install required packages
+pip install -r requirements.txt
+
+#Merge MolAI model
+cat models_MolAI/Model_Trained_epoch_6_part_* > models_MolAI/Model_Trained_epoch_6.h5
+```
 
 ## Usage
 
